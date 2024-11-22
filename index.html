@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Nearby Device Finder</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header>
+    <h1>Nearby Device Finder</h1>
+  </header>
+  <main>
+    <label for="username">Enter your name:</label>
+    <input type="text" id="username" placeholder="Your Name">
+    <button id="broadcast-btn">Start Broadcasting</button>
+    <button id="scan-btn">Scan Nearby Devices</button>
+    <button id="send-btn" disabled>Send Bingo</button>
+    <ul id="device-list"></ul>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
